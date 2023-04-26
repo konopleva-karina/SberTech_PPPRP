@@ -1,6 +1,6 @@
 # SberTech_PPPRP
 
-Приложение состоит из двух микросервисов: nginx как reverse proxy и приложение на Flask, которое ходит в публичное API [numbersapi.com](http://numbersapi.com/#42). По ручке ```/numberinfo/{number}``` приложение отдает информацию о числе ```number```. Пример запроса и ответа:
+Приложение состоит из двух микросервисов: nginx как reverse proxy и приложение на Flask, которое ходит в публичное API [numbersapi.com](http://numbersapi.com/#42). Сслылки на образы: [nginx](https://hub.docker.com/r/karinakonopleva/nginx_alpine) и [flask](https://hub.docker.com/r/karinakonopleva/flask). По ручке ```/numberinfo/{number}``` приложение отдает информацию о числе ```number```. Пример запроса и ответа:
 
 ```bash
 karina@MacBook-Pro-Karina istio-1.17.2 % curl 127.0.0.1/numberinfo/3

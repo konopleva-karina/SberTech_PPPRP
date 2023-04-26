@@ -32,8 +32,8 @@ spec:
         version: v1
     spec:
       containers:
-      - name: flask
-        image: docker.io/karinakonopleva/nginx-alpine:v1
+      - name: nginx-alpine
+        image: docker.io/karinakonopleva/nginx_alpine:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
